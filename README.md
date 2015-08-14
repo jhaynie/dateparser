@@ -37,9 +37,6 @@ bower install jhaynie/dateparser
 
 If you don't use Bower as a package manager, you can copy the minified JS from `dist/dateparser.min.js` to the location of your web assets directory and inclue it in your HTML manually.
 
-This library depends on the [MomentJS](http://www.momentjs.com) package.  If you're copying the JS directly, make sure you include the momentjs script tag before including the dateparser.
-
-
 ## API
 
 The API has only 2 methods `parse` and `format`.
