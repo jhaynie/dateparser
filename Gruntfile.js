@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 					preserveComments: 'some'
 				},
 				files: {
-					'dist/dateparser.min.js': ['dist/dateparser.min.js']
+					'dateparser.min.js': 'dist/dateparser.min.js'
 				}
 			}
 		},

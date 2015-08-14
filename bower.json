@@ -1,7 +1,7 @@
 {
   "name": "dateparser",
-  "main": "dist/dateparser.min.js",
-  "version": "1.0.3",
+  "main": "dateparser.min.js",
+  "version": "1.0.4",
   "authors": [
     "Jeff Haynie <jhaynie@appcelerator.com>"
   ],
@@ -23,10 +23,11 @@
   "license": "Apache-2.0",
   "homepage": "http://github.com/jhaynie/dateparser",
   "ignore": [
-    "*.js",
+    "dateparser.js",
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "dist"
   ]
 }
