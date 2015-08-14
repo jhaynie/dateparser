@@ -1,6 +1,6 @@
 {
   "name": "dateparser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A human language relative date parser",
   "main": "index.js",
   "scripts": {
