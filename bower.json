@@ -17,6 +17,10 @@
   "dependencies": {
     "moment": "^2.10.6"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhaynie/dateparser.git"
+  },
   "license": "Apache-2.0",
   "homepage": "http://github.com/jhaynie/dateparser",
   "ignore": [
