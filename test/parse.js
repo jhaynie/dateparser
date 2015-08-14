@@ -182,6 +182,7 @@ describe('parser', function () {
 		result = parse('every other 2 days');
 		should(format(result)).be.equal('every 4 days');
 
+		should(format('every day')).be.equal('every day');
 	});
 
 });

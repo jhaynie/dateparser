@@ -165,6 +165,7 @@ function pluralize(v, label) {
 }
 
 function format (value) {
+	if (typeof(value) === 'string') { return format(parse(value)); }
 	var moment = require('moment');
 	if (value.relative) {
 		return moment(value.value).fromNow();
@@ -210,3 +211,8 @@ function format (value) {
 
 exports.parse = parse;
 exports.format = format;
+
+// browser global shim
+if (typeof(window) === 'object') {
+	window.dateparser = exports;
+}

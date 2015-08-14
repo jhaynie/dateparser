@@ -1,6 +1,6 @@
 {
   "name": "dateparser",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A human language relative date parser",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,7 @@
     "debowerify": "^1.3.1",
     "decomponentify": "^0.1.0",
     "deglobalify": "^0.2.0",
+    "es6ify": "^1.6.0",
     "grunt": "^0.4.5",
     "grunt-browserify": "^4.0.0",
     "grunt-contrib-uglify": "^0.9.1",
