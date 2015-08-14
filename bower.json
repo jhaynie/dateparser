@@ -1,0 +1,29 @@
+{
+  "name": "dateparser",
+  "main": "dist/dateparser.min.js",
+  "version": "1.0.0",
+  "authors": [
+    "Jeff Haynie <jhaynie@appcelerator.com>"
+  ],
+  "description": "A human language relative date parser",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "keywords": [
+    "date",
+    "dateparser"
+  ],
+  "dependencies": {
+    "moment": "^2.10.6"
+  },
+  "license": "Apache-2.0",
+  "homepage": "http://github.com/jhaynie/dateparser",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
