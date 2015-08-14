@@ -35,7 +35,7 @@ bower install jhaynie/dateparser
 
 ### JS files
 
-If you don't use Bower as a package manager, you can copy the minified JS from `dist/dateparser.min.js` to the location of your web assets directory and inclue it in your HTML manually.
+If you don't use Bower as a package manager, you can copy the minified JS from `dateparser.min.js` to the location of your web assets directory and inclue it in your HTML manually.
 
 ## API
 
